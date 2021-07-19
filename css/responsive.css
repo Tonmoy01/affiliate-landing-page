@@ -1,0 +1,335 @@
+@media only screen and (max-width: 1190px) {
+    /* ========================
+            HOME
+    =========================== */
+    .home-content {
+        padding-top: 5rem;
+    }
+    .home-content h1 {
+        font-size: 1.4rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: var(--black-color);
+        padding-top: 0;
+        padding-bottom: 3rem;
+    }
+    .home-article p {
+        font-size: 0.9rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: var(--black-color);
+        letter-spacing: 0.12rem;
+    }
+    .home-img img {
+        width: 500px;
+    }
+    /* ========================
+            BANNER
+    =========================== */
+    .banner img {
+        width: 80%;
+        margin-left: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {}
+
+@media only screen and (max-width: 900px) {
+    /* ========================
+            NAVIGATION
+=========================== */
+    nav .navbar {
+        width: 90%;
+    }
+    nav .navbar .menu {
+        position: fixed;
+        left: -101%;
+        top: 0;
+        background: var(--parimary-color);
+        box-shadow: 1px 0px 0 0 var(--secondary-color);
+        height: 110vh;
+        max-width: 25rem;
+        width: 100%;
+        padding-top: 3.75rem;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+    nav .navbar .menu {
+        position: absolute;
+    }
+    nav .menu-btn,
+    nav .menu .cancel-btn {
+        display: block;
+        color: var(--black-color);
+        margin-top: 10px;
+    }
+    nav .menu-btn {
+        color: var(--black-color);
+    }
+    nav .menu-btn.active {
+        color: var(--secondary-color);
+    }
+    .navbar.active .menu {
+        left: 0;
+    }
+    nav .navbar .menu li a {
+        font-size: 1.4375rem;
+        color: var(--black-color);
+        display: block;
+        margin: 0.625rem 0;
+        cursor: pointer;
+        position: relative;
+    }
+    /* ========================
+            HOME
+=========================== */
+    .home-content h1 {
+        font-size: 1.8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: var(--black-color);
+        padding-bottom: 3rem;
+    }
+    .home-article p {
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: var(--black-color);
+    }
+    .home-img img {
+        width: 300px;
+    }
+    /* ========================
+            TESTOGEN
+=========================== */
+    .testogen-article {
+        text-align: left;
+    }
+    .ingredients-img {
+        text-align: center;
+    }
+    .ingredients-img img {
+        width: 500px;
+    }
+    /* ========================
+            WORKS
+=========================== */
+    .works-article li {
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        padding-bottom: 1rem;
+    }
+    /* ========================
+            BODY
+=========================== */
+    .right-container {
+        display: none;
+    }
+    .left-container {
+        width: 100%;
+    }
+    .ingredients-img {
+        padding-top: 3rem;
+    }
+    .ingredients-img img {
+        margin-left: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    /* ========================
+            HOME
+=========================== */
+    section#home {
+        flex-direction: column;
+        padding: 0;
+    }
+    .home-content {
+        padding-top: 2rem;
+        text-align: center;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .home-content h1 {
+        padding-bottom: 2rem;
+    }
+    .home-article p {
+        padding-bottom: 3rem;
+    }
+    .home-img {
+        width: 100%;
+        text-align: center;
+    }
+    /* ========================
+            BODY
+=========================== */
+    /* ========================
+            TESTOGEN
+=========================== */
+    .testogen-article {
+        text-align: left;
+        width: 125%;
+        margin: 0 auto;
+        margin-left: -45px;
+    }
+    .testogen-img img {
+        width: 400px;
+        padding-right: 5rem;
+        margin-left: -52px;
+    }
+    /* ========================
+            WORKS
+=========================== */
+    .works-article li {
+        font-size: 1.5rem;
+        line-height: 1.9rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .ingredients-img {
+        text-align: center;
+    }
+    .ingredients-img img {
+        width: 460px;
+        margin-left: -8px;
+    }
+    /* ========================
+            CONCLUSION
+=========================== */
+    .conclusion-article {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .conclusion-article p {
+        margin-top: 2rem;
+        text-align: left;
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    /* ========================
+            HOME
+=========================== */
+    section#home {
+        flex-direction: column;
+        padding: 0;
+    }
+    .home-content {
+        padding-top: 2rem;
+        text-align: center;
+        width: 100%;
+        padding: 1rem;
+    }
+    .home-content h1 {
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    .home-article p {
+        padding: 2rem;
+        padding-top: 0;
+        font-size: 1rem;
+    }
+    .home-img {
+        width: 100%;
+        text-align: center;
+    }
+    .home-img img {
+        width: 300px;
+        text-align: center;
+        margin-right: 15px;
+    }
+    /* ========================
+            BODY
+=========================== */
+    section.testogen {
+        padding: 0;
+    }
+    .testogen-title {
+        font-size: 1.8rem;
+    }
+    .testogen-article p {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .testogen-img img {
+        width: 250px;
+        padding-right: 0;
+    }
+    .ingredients-img {
+        text-align: center;
+    }
+    .ingredients-img img {
+        width: 280px;
+        margin-left: -28px;
+    }
+    /* ========================
+            CONCLUSION
+=========================== */
+    .conclusion-article {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .conclusion-article p {
+        margin-top: 2rem;
+        text-align: left;
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .ingredients-img img {
+        width: 300px;
+        margin-left: -5px;
+    }
+    .testogen-article {
+        text-align: left;
+        width: 116%;
+        margin: 0 auto;
+        margin-left: -18px;
+    }
+    .banner img {
+        margin-left: 0rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .ingredients-img img {
+        width: 300px;
+        margin-left: -18px;
+    }
+    .testogen-article {
+        text-align: left;
+        width: 125%;
+        margin: 0 auto;
+        margin-left: -25px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .ingredients-img img {
+        width: 260px;
+        margin-left: -18px;
+    }
+    .ingredients-img {
+        padding-top: 1rem;
+    }
+    .testogen-img img {
+        width: 250px;
+        padding-right: 30px;
+    }
+    .testogen-article {
+        text-align: left;
+        width: 125%;
+        margin: 0 auto;
+        margin-left: -25px;
+    }
+}
